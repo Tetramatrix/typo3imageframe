@@ -1,0 +1,190 @@
+lib.imgtextrendering.picframe1-caption {
+    imageRowStdWrap.wrap = <div class="csi-imagerow" style="width:{register:rowwidth}px;"> | </div>
+    imageRowStdWrap.insertData = 1
+    noRowsStdWrap.wrap =
+    oneImageStdWrap.wrap = <dl class="csi-image-picframe" style="width:{register:imagewidth}px;margin:0px;padding:0px;"> | </dl>
+    oneImageStdWrap.insertData = 1
+    imgTagStdWrap.wrap = <dt class="picframe"><table width="215" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td><img src="{$ch_picframeResPath}/r1/pr-olinks.gif" width="14" height="12"></td><td align="left" valign="top" background="{$ch_picframeResPath}/r1/pr-walloben.gif"><img src="{$ch_picframeResPath}/r1/pr-top.gif" width="162" height="12"></td><td><img src="{$ch_picframeResPath}/r1/pr-obenre.gif" width="16" height="12"></td></tr><tr><td align="left" valign="top" background="{$ch_picframeResPath}/r1/r-wall-li.gif"><img src="{$ch_picframeResPath}/r1/r-links.gif" width="14" height="28"></td><td bgcolor="#FFFFFF">|
+    editIconsStdWrap.wrap = <dd> | </dd>
+    captionStdWrap.wrap = </td><td align="left" valign="top" background="{$ch_picframeResPath}/r1/r-wall-re.gif"><img src="{$ch_picframeResPath}/r1/r-rechts.gif" width="16" height="75"></td></tr><tr><td rowspan="2" valign="bottom" height="25"><img src="{$ch_picframeResPath}/r1/r-uliecke.gif" width="14" height="25"></td><td valign="bottom" bgcolor="#FFFFFF" height="19" align="center">|</td><td rowspan="2" valign="bottom" height="25"><img src="{$ch_picframeResPath}/r1/r-ureecke.gif" width="16" height="25"></td></tr><tr><td height="6" align="right" valign="bottom" background="{$ch_picframeResPath}/r1/pr-untenwall.gif"><img src="{$ch_picframeResPath}/r1/pr-unten.gif" width="175" height="6"></td></tr></table></dt>
+}
+
+
+lib.imgtextrendering.picframe1-nocaption {
+    imageRowStdWrap.wrap = <div class="csi-imagerow" style="width:{register:rowwidth}px;"> | </div>
+    imageRowStdWrap.insertData = 1
+    noRowsStdWrap.wrap =
+    oneImageStdWrap.wrap = <dl class="csi-image-picframe" style="width:{register:imagewidth}px;margin:0px;padding:0px;"> | </dl>
+    oneImageStdWrap.insertData = 1
+    imgTagStdWrap.wrap = <dt class="picframe"><table width="215" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td><img src="{$ch_picframeResPath}/r1/pr-olinks.gif" width="14" height="12"></td><td align="left" valign="top" background="{$ch_picframeResPath}/r1/pr-walloben.gif"><img src="{$ch_picframeResPath}/r1/pr-top.gif" width="162" height="12"></td><td><img src="{$ch_picframeResPath}/r1/pr-obenre.gif" width="16" height="12"></td></tr><tr><td align="left" valign="top" background="{$ch_picframeResPath}/r1/r-wall-li.gif"><img src="{$ch_picframeResPath}/r1/r-links.gif" width="14" height="28"></td><td bgcolor="#FFFFFF">|</td><td align="left" valign="top" background="{$ch_picframeResPath}/r1/r-wall-re.gif"><img src="{$ch_picframeResPath}/r1/r-rechts.gif" width="16" height="75"></td></tr><tr><td rowspan="2" valign="bottom" height="25"><img src="{$ch_picframeResPath}/r1/r-uliecke.gif" width="14" height="25"></td><td valign="bottom" bgcolor="#FFFFFF" height="19" align="center">&nbsp;</td><td rowspan="2" valign="bottom" height="25"><img src="{$ch_picframeResPath}/r1/r-ureecke.gif" width="16" height="25"></td></tr><tr><td height="6" align="right" valign="bottom" background="{$ch_picframeResPath}/r1/pr-untenwall.gif"><img src="{$ch_picframeResPath}/r1/pr-unten.gif" width="175" height="6"></td></tr></table></dt>
+    editIconsStdWrap.wrap = <dd> | </dd>
+    captionStdWrap.wrap = |
+  }
+
+lib.imgtextrendering.picframe2-caption {
+    imageRowStdWrap.wrap = <div class="csi-imagerow" style="width:{register:rowwidth}px;"> | </div>
+    imageRowStdWrap.insertData = 1
+    noRowsStdWrap.wrap =
+    oneImageStdWrap.wrap = <dl class="csi-image-picframe" style="width:{register:imagewidth}px;margin:0px;padding:0px;"> | </dl>
+    oneImageStdWrap.insertData = 1
+    imgTagStdWrap.wrap = <dt class="picframe"><table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td width="10" height="11"><img src="{$ch_picframeResPath}/r2/eckoli.gif" width="10" height="11"></td><td height="11" bgcolor="#FFFFFF"></td><td width="15" height="11"><img src="{$ch_picframeResPath}/r2/eckore.gif" width="15" height="11"></td></tr><tr><td width="10" bgcolor="#FFFFFF"></td><td align="left" valign="top" bgcolor="#FFFFFF">|
+
+    editIconsStdWrap.wrap = <dd> | </dd>
+    captionStdWrap.wrap = </td><td width="15" align="right" valign="bottom" background="{$ch_picframeResPath}/r2/rechts-wall.gif"><img src="{$ch_picframeResPath}/r2/rechtsschatten.gif" width="15" height="110"></td></tr><tr><td width="10" height="16" rowspan="2" align="left" valign="bottom" bgcolor="#FFFFFF"><img src="{$ch_picframeResPath}/r2/eckuli.gif" width="10" height="16"></td><td bgcolor="#FFFFFF">|</td><td width="15" height="16" rowspan="2" align="right" valign="bottom" background="{$ch_picframeResPath}/r2/eckure-wall.gif"><img src="{$ch_picframeResPath}/r2/eckure.gif" width="15" height="16"></td></tr><tr><td height="7" align="right" valign="bottom" background="{$ch_picframeResPath}/r2/unten-wall.gif"><img src="{$ch_picframeResPath}/r2/unten-schatten.gif" width="169" height="7"></td></tr></table></dt>
+}
+
+lib.imgtextrendering.picframe2-nocaption {
+    imageRowStdWrap.wrap = <div class="csi-imagerow" style="width:{register:rowwidth}px;"> | </div>
+    imageRowStdWrap.insertData = 1
+    noRowsStdWrap.wrap =
+    oneImageStdWrap.wrap = <dl class="csi-image-picframe" style="width:{register:imagewidth}px;margin:0px;padding:0px;"> | </dl>
+    oneImageStdWrap.insertData = 1
+    imgTagStdWrap.wrap = <dt class="picframe"><table width="150" border="0" cellspacing="0" cellpadding="0"><tr><td width="10" height="11"><img src="{$ch_picframeResPath}/r2/eckoli.gif" width="10" height="11"></td><td height="11" bgcolor="#FFFFFF"></td><td width="15" height="11"><img src="{$ch_picframeResPath}/r2/eckore.gif" width="15" height="11"></td></tr><tr><td width="10" bgcolor="#FFFFFF"></td><td align="left" valign="top" bgcolor="#FFFFFF">|</td><td width="15" align="right" valign="bottom" background="{$ch_picframeResPath}/r2/rechts-wall.gif"><img src="{$ch_picframeResPath}/r2/rechtsschatten.gif" width="15" height="110"></td></tr><tr><td width="10" height="16" rowspan="2" align="left" valign="bottom" bgcolor="#FFFFFF"><img src="{$ch_picframeResPath}/r2/eckuli.gif" width="10" height="16"></td><td bgcolor="#FFFFFF">&nbsp;</td><td width="15" height="16" rowspan="2" align="right" valign="bottom" background="{$ch_picframeResPath}/r2/eckure-wall.gif"><img src="{$ch_picframeResPath}/r2/eckure.gif" width="15" height="16"></td></tr><tr><td height="7" align="right" valign="bottom" background="{$ch_picframeResPath}/r2/unten-wall.gif"><img src="{$ch_picframeResPath}/r2/unten-schatten.gif" width="169" height="7"></td></tr></table></dt>
+    editIconsStdWrap.wrap = <dd> | </dd>
+    captionStdWrap.wrap = |
+ }
+
+tt_content.textpic.20.rendering < lib.imgtextrendering
+plugin.tx_croncssstyledimgtext._CSS_DEFAULT_STYLE (
+/*
+ * css-styled-imgtext
+ */
+/*
+  Licensed under the GPL, see http://www.gnu.org/copyleft/gpl.html
+  (c) the TYPO3 content rendering group
+  (c) Ernesto Baschny (ernst@cron-it.de)
+*/
+
+/* Captions */
+P.csc-caption { margin: 0; }
+P.csc-caption {
+  font-size: 80%; /* Customize me */
+}
+DIV.csi-caption-c .csi-caption { text-align: center; }
+DIV.csi-caption-r .csi-caption { text-align: right; }
+DIV.csi-caption-l .csi-caption { text-align: left; }
+
+
+
+/* Needed for noRows setting */
+DIV.csi-textpic DIV.csi-imagecolumn { float: left; display: inline; }
+
+/* Border just around the image */
+{$styles.content.imgtext.borderSelector} {
+  border: {$styles.content.imgtext.borderThick}px solid {$styles.content.imgtext.borderColor};
+  padding: {$styles.content.imgtext.borderSpace}px {$styles.content.imgtext.borderSpace}px;
+}
+
+DIV.csi-imagewrap { padding: 0; }
+
+DIV.csi-textpic IMG { border: none; }
+
+/* DIV: This will place the images side by side */
+DIV.csi-textpic DIV.csi-imagewrap DIV.csi-image { float: left; }
+
+/* UL: This will place the images side by side */
+DIV.csi-textpic DIV.csi-imagewrap UL { list-style: none; margin: 0; padding: 0; }
+DIV.csi-textpic DIV.csi-imagewrap UL LI { float: left; margin: 0; padding: 0; }
+
+/* DL: This will place the images side by side */
+DIV.csi-textpic DIV.csi-imagewrap DL.csi-image { float: left; }
+DIV.csi-textpic DIV.csi-imagewrap DL.csi-image DT { float: none; }
+DIV.csi-textpic DIV.csi-imagewrap DL.csi-image DD { float: none; }
+DIV.csi-textpic DIV.csi-imagewrap DL.csi-image DD IMG { border: none; } /* FE-Editing Icons */
+DL.csi-image { margin: 0; }
+DL.csi-image DT { margin: 0; display: inline; }
+DL.csi-image DD { margin: 0; }
+
+/* Clearer */
+DIV.csi-clear { clear: both; }
+
+/* Margins around images: */
+
+/* Pictures on left, add padding on right */
+DIV.csi-left DIV.csi-imagewrap .csi-image,
+DIV.csi-intext-left-nowrap DIV.csi-imagewrap .csi-image,
+DIV.csi-intext-left DIV.csi-imagewrap .csi-image {
+  display: inline; /* IE fix for double-margin bug */
+  margin-right: {$styles.content.imgtext.colSpace}px;
+}
+
+/* Pictures on right, add padding on left */
+DIV.csi-right DIV.csi-imagewrap .csi-image,
+DIV.csi-intext-right-nowrap DIV.csi-imagewrap .csi-image,
+DIV.csi-intext-right DIV.csi-imagewrap .csi-image {
+  display: inline; /* IE fix for double-margin bug */
+  margin-left: {$styles.content.imgtext.colSpace}px;
+}
+
+/* Pictures centered, add padding left and right */
+DIV.csi-center DIV.csi-imagewrap .csi-image {
+  display: inline; /* IE fix for double-margin bug */
+  margin-left: {$styles.content.imgtext.colSpaceHalf}px;
+  margin-right: {$styles.content.imgtext.colSpaceHalf}px;
+}
+DIV.csi-textpic DIV.csi-imagewrap .csi-image .csi-caption { margin: 0; }
+DIV.csi-textpic DIV.csi-imagewrap .csi-image IMG { margin: 0; }
+
+/* Space below each image (also in-between rows) */
+DIV.csi-textpic DIV.csi-imagewrap .csi-image { margin-bottom: 5px; }
+DIV.csi-equalheight DIV.csi-imagerow { margin-bottom: 5px; display: block; }
+
+/* Positioning of images: */
+
+/* Above */
+DIV.csi-above DIV.csi-text { clear: both; }
+
+/* Center (above or below) */
+DIV.csi-center { text-align: center; /* IE-hack */ }
+DIV.csi-center DIV.csi-imagewrap { margin: 0 auto; }
+DIV.csi-center DIV.csi-imagewrap .csi-image { text-align: left; /* Remove IE-hack */ }
+DIV.csi-center DIV.csi-text { text-align: left; /* Remove IE-hack */ }
+
+/* Right (above or below) */
+DIV.csi-right DIV.csi-imagewrap { float: right; }
+DIV.csi-right DIV.csi-text { clear: right; }
+
+/* Left (above or below) */
+DIV.csi-left DIV.csi-imagewrap { float: left; }
+DIV.csi-left DIV.csi-text { clear: left; }
+
+/* Left (in text) */
+DIV.csi-intext-left DIV.csi-imagewrap { float: left; }
+
+/* Right (in text) */
+DIV.csi-intext-right DIV.csi-imagewrap { float: right; }
+
+/* Right (in text, no wrap around) */
+DIV.csi-intext-right-nowrap DIV.csi-imagewrap { float: right; clear: both; }
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+* html DIV.csi-intext-right-nowrap .csi-text { height: 1%; }
+/* End hide from IE5/mac */ 
+
+/* Left (in text, no wrap around) */
+DIV.csi-intext-left-nowrap DIV.csi-imagewrap { float: left; clear: both; }
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+* html DIV.csi-intext-left-nowrap .csi-text { height: 1%; }
+/* End hide from IE5/mac */
+
+DL.csi-image-picframe {margin:0px;padding:0px;}
+dt.picframe {margin:0px;padding:0px; }
+ 
+/* Div.csi-textpic.csi-left.csi-above { margin: 0px 13px 17px 13px; }*/
+
+/*top - right - bottom - left*/
+Div.csi-imagewrap { padding: 0px 38px 4px 4px; }
+)
+
+
+
+tt_content.image.20.1.imageLinkWrap {
+
+	title = amici d`Italia Detailansicht
+                bodyTag = <body>
+	wrap = |
+                width=800
+	height=600
+	JSwindow.expand=80,100
+}
+
+tt_content.textpic.20.1.imageLinkWrap < tt_content.image.20.1.imageLinkWrap

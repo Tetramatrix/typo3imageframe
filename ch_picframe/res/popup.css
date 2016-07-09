@@ -1,0 +1,25 @@
+body {
+	background-color: #F8FCFC;
+	background-image: url(/fileadmin/Templates/layoutdaten/html/images/wallpaper.jpg);
+	background-repeat: repeat-x;
+	padding: 0px;
+    margin: 0px;
+	margin-top: 40px;
+	margin-botton: 20px;
+	height: 100%;
+	padding:0px; /* für Crossbrowser-Kompatibilität*/
+    text-align:center; /* Hack fuer IE5/Win */
+}
+
+
+
+/*
+#Content {
+width:75%;
+margin:0 auto;  Breite fuer rechten und linken Rand auf "auto"
+text-align:left; IE5/Win Hack zurücknehmen
+padding:15px;
+border:1px dashed #FF0000; nur Demo
+background-color:#eee; nur Demo
+} */
+

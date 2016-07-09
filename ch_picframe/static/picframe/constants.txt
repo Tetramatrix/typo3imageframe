@@ -1,0 +1,1 @@
+ch_picframeResPath=typo3conf/ext/ch_picframe/res

@@ -1,0 +1,3 @@
+tt_content.textpic.20.1.imageLinkWrap.stylesheet = popup.css
+tt_content.textpic.20.1.imageLinkWrap.imgstyle = class="frame"
+tt_content.textpic.20.1.imageLinkWrap.doctype = <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
